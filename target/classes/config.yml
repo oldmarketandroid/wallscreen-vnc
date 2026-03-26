@@ -1,0 +1,23 @@
+debug: false
+
+performance:
+  max-tile-updates-per-tick: 4
+  prioritize-neighbor-tiles: true
+
+defaults:
+  fps: 4
+  width-px: 256
+  height-px: 256
+  bitrate-kbps: 1200
+  vnc:
+    enabled: false
+    host: 127.0.0.1
+    port: 5900
+    password: ""
+    connect-timeout-ms: 3000
+    read-timeout-ms: 3000
+
+screens: {}
+
+input:
+  mouse-step-px: 24

@@ -1,0 +1,12 @@
+name: WallScreenVNC
+main: com.oldmarket.wallscreen.WallScreenPlugin
+version: 0.1.0
+author: OpenAI
+commands:
+  wallscreen:
+    description: Wall screen control command
+    usage: /wallscreen <subcommand>
+    permission: wallscreen.admin
+permissions:
+  wallscreen.admin:
+    default: true
